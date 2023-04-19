@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
     console.log("### GET /");
     res.render("index", {
         title: "todolist 서비스 v1.0",
-        subtitle: "(node.js + express + lokijs)",
+        subtitle: "(node.js + express + mongodb)",
     });
 });
 
